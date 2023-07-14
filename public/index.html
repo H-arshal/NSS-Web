@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NSS | SGGSIE&T</title>
+  <link href="img/logo.png" rel="icon" />
+  <!-- css links -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    integrity="sha512-c42qTSw/wPZ3/5LBzD+Bw5f7bSF2oxou6wEb+I/lqeaKV5FDIfMvvRp772y4jcJLKuGUOpbJMdg/BTl50fJYAw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <link rel="stylesheet" href="./node_modules/bootstrap-icons/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/boxicons/2.1.0/css/boxicons.min.css"
+    integrity="sha512-pVCM5+SN2+qwj36KonHToF2p1oIvoU3bsqxphdOIWMYmgr4ZqD3t5DjKvvetKhXGc/ZG5REYTT6ltKfExEei/Q=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/glightbox/3.2.0/css/glightbox.min.css"
+    integrity="sha512-T+KoG3fbDoSnlgEXFQqwcTC9AdkFIxhBlmoaFqYaIjq2ShhNwNao9AKaLUPMfwiBPL0ScxAtc+UYbHAgvd+sjQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/9.1.1/swiper-bundle.min.css"
+    integrity="sha512-ZOhNKDt0whrHDdUeNKjuq2C8hturzwCSuCfrOIMIfy9QDgpSqDEebdkGQXvXh1xHmZOHSelDBrTLj6XlqbHz6g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top d-flex align-items-center header-transparent">
+    <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+      <div class="logo me-auto">
+        <h1><a href="index.html"><img src="./img/logo.png"></a></h1>
+      </div>
+
+      <nav id="navbar" class="navbar order-last order-lg-0">
+        <ul>
+          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+          <li><a class="nav-link scrollto" href="#about">About</a></li>
+          <li><a class="nav-link scrollto" href="#menu">History</a></li>
+          <li><a class="nav-link scrollto" href="./component/activity-blog.html" target="_blank">Activities</a></li>
+          <li><a class="nav-link scrollto" href="./component/team.html" target="_blank">Team</a></li>
+          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+          <!-- <li><a class="nav-link scrollto" href="#gallery">Gallery</a></li> -->
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav>
+      <!-- .navbar -->
+
+      <a href="#book-a-table" class="book-a-table-btn scrollto">Idea Box</a>
+    </div>
+  </header>
+  <!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero">
+    <div class="hero-container">
+      <div id="heroCarousel" data-bs-interval="5000" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
+
+        <div class="carousel-inner" role="listbox">
+          <!-- Slide 1 -->
+          <div class="carousel-item active" style="
+                background-image: url(https://upload.wikimedia.org/wikipedia/commons/3/3a/The_National_Service_Scheme_%28NSS%29_Marching_Contingent_passes_through_the_Rajpath%2C_on_the_occasion_of_the_68th_Republic_Day_Parade_2017%2C_in_New_Delhi_on_January_26%2C_2017.jpg);
+              ">
+            <div class="carousel-container">
+              <div class="carousel-content">
+                <h2 class="animate__animated animate__fadeInDown">
+                  <span>NSS</span>
+                </h2>
+                <p class="animate__animated animate__fadeInUp">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Nihil officiis necessitatibus vitae expedita. Ea, tempora
+                  ipsum pariatur adipisci architecto, animi voluptas iure
+                  provident, veritatis esse sequi atque porro sunt a!
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 2 -->
+          <div class="carousel-item" style="background-image: url(./img/slide/slide2.jpg)">
+            <div class="carousel-container">
+              <div class="carousel-content">
+                <h2 class="animate__animated animate__fadeInDown">
+                  P1
+                </h2>
+                <p class="animate__animated animate__fadeInUp">
+                  Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea
+                  ut et est quaerat sequi nihil ut aliquam. Occaecati alias
+                  dolorem mollitia ut. Similique ea voluptatem. Esse
+                  doloremque accusamus repellendus deleniti vel. Minus et
+                  tempore modi architecto.
+                </p>
+                <!-- <div>
+                    <a
+                      href="#menu"
+                      class="btn-menu animate__animated animate__fadeInUp scrollto"
+                      >Our Menu</a
+                    >
+                    <a
+                      href="#book-a-table"
+                      class="btn-book animate__animated animate__fadeInUp scrollto"
+                      >Book a Table</a
+                    >
+                  </div> -->
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 3 -->
+          <div class="carousel-item" style="background-image: url(./img/slide/slide-3.jpg)">
+            <div class="carousel-container">
+              <div class="carousel-content">
+                <h2 class="animate__animated animate__fadeInDown">
+                  P2
+                </h2>
+                <p class="animate__animated animate__fadeInUp">
+                  Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea
+                  ut et est quaerat sequi nihil ut aliquam. Occaecati alias
+                  dolorem mollitia ut. Similique ea voluptatem. Esse
+                  doloremque accusamus repellendus deleniti vel. Minus et
+                  tempore modi architecto.
+                </p>
+                <!-- <div>
+                    <a
+                      href="#menu"
+                      class="btn-menu animate__animated animate__fadeInUp scrollto"
+                      >Our Menu</a
+                    >
+                    <a
+                      href="#book-a-table"
+                      class="btn-book animate__animated animate__fadeInUp scrollto"
+                      >Book a Table</a
+                    >
+                  </div> -->
+              </div>
+            </div>
+          </div>
+          <!-- Slide 4 -->
+          <div class="carousel-item" style="background-image: url(./img/slide/slide-3.jpg)">
+            <div class="carousel-container">
+              <div class="carousel-content">
+                <h2 class="animate__animated animate__fadeInDown">
+                  P3
+                </h2>
+                <p class="animate__animated animate__fadeInUp">
+                  Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea
+                  ut et est quaerat sequi nihil ut aliquam. Occaecati alias
+                  dolorem mollitia ut. Similique ea voluptatem. Esse
+                  doloremque accusamus repellendus deleniti vel. Minus et
+                  tempore modi architecto.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- Slide 5 -->
+          <div class="carousel-item" style="background-image: url(./img/slide/slide-3.jpg)">
+            <div class="carousel-container">
+              <div class="carousel-content">
+                <h2 class="animate__animated animate__fadeInDown">
+                  P4
+                </h2>
+                <p class="animate__animated animate__fadeInUp">
+                  Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea
+                  ut et est quaerat sequi nihil ut aliquam. Occaecati alias
+                  dolorem mollitia ut. Similique ea voluptatem. Esse
+                  doloremque accusamus repellendus deleniti vel. Minus et
+                  tempore modi architecto.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <a class="carousel-control-prev" href="#heroCarousel" role="button" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
+        </a>
+
+        <a class="carousel-control-next" href="#heroCarousel" role="button" data-bs-slide="next">
+          <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
+        </a>
+      </div>
+    </div>
+  </section>
+  <section id="clients" class="clients section-bg ">
+    <div class="container">
+      <div class="row align-items-center justify-content-center">
+        <div class="col-lg-1 col-md-4 col-6 d-flex align-items-center justify-content-center">
+          <img src="./img/logo.png" class="img-fluid" alt="" />
+        </div>
+        <div class="col-lg-1 col-md-4 col-6 d-flex align-items-center justify-content-center">
+          <img src="./img/logo.png" class="img-fluid" alt="" />
+        </div>
+        <div class="col-lg-1 col-md-4 col-6 d-flex align-items-center justify-content-center">
+          <img src="./img/logo.png" class="img-fluid" alt="" />
+        </div>
+        <div class="col-lg-1 col-md-4 col-6 d-flex align-items-center justify-content-center">
+          <img src="./img/logo.png" class="img-fluid" alt="" />
+        </div>
+        <div class="col-lg-1 col-md-4 col-6 d-flex align-items-center justify-content-center">
+          <img src="./img/logo.png" class="img-fluid" alt="" />
+        </div>
+        <div class="col-lg-1 col-md-4 col-6 d-flex align-items-center justify-content-center">
+          <img src="./img/logo.png" class="img-fluid" alt="" />
+        </div>
+        <div class="col-lg-1 col-md-4 col-6 d-flex align-items-center justify-content-center">
+          <img src="./img/logo.png" class="img-fluid" alt="" />
+        </div>
+        <div class="col-lg-1 col-md-4 col-6 d-flex align-items-center justify-content-center">
+          <img src="./img/logo.png" class="img-fluid" alt="" />
+        </div>
+        <div class="col-lg-1 col-md-4 col-6 d-flex align-items-center justify-content-center">
+          <img src="./img/logo.png" class="img-fluid" alt="" />
+        </div>
+        <div class="col-lg-1 col-md-4 col-6 d-flex align-items-center justify-content-center">
+          <img src="./img/logo.png" class="img-fluid" alt="" />
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Clients Section -->
+  <!-- End Hero -->
+
+  <main id="main">
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="abttl" style="margin: 0rem 6rem; margin-bottom: 3rem">
+        <h1><strong>About</strong></h1>
+      </div>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-7 d-flex flex-column justify-content-center align-items-stretch">
+            <div class="content">
+              <p>
+                The National Service Scheme <strong>(NSS)</strong> is a
+                Central Sector Scheme of Government of India, Ministry of
+                Youth Affairs & Sports. It provides opportunity to the student
+                youth of India to take part in various government led
+                community service activities & programmes. The sole aim of the
+                NSS is to provide hands on experience to young students in
+                delivering community service. The motto of National Service
+                Scheme is NOT ME BUT YOU.
+              </p>
+              <p class="fst-italic">
+                <b>The broad objectives of NSS are to:</b>
+              </p>
+              <ul>
+                <li>
+                  <i class="bx bx-check-double"></i>Understand the community
+                  in which they work
+                </li>
+                <li>
+                  <i class="bx bx-check-double"></i>Identify the needs and
+                  problems of the community and involve them in problem
+                  solving process;
+                </li>
+                <li>
+                  <i class="bx bx-check-double"></i> Develop among themselves
+                  a sense of social and civic responsibility;
+                </li>
+                <li>
+                  <i class="bx bx-check-double"></i>Acquire leadership
+                  qualities and democratic attitude;
+                </li>
+                <li>
+                  <i class="bx bx-check-double"></i>Develop capacity to meet
+                  emergencies and natural disasters
+                </li>
+                <li>
+                  <i class="bx bx-check-double"></i>Practice national
+                  integration and social harmony.
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-5 align-items-stretch video-box">
+            <iframe class="yt" src="https://www.youtube.com/embed/pU6xS6u0aWY" title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End About Section -->
+    <main id="main">
+      <!-- ======= Counts Section ======= -->
+      <section id="counts" class="counts">
+        <div class="container">
+          <div class="row counters">
+            <div class="col-lg-3 col-6 text-center">
+              <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1"
+                class="purecounter"></span>
+              <p>Clients</p>
+            </div>
+
+            <div class="col-lg-3 col-6 text-center">
+              <span data-purecounter-start="0" data-purecounter-end="521" data-purecounter-duration="1"
+                class="purecounter"></span>
+              <p>Projects</p>
+            </div>
+
+            <div class="col-lg-3 col-6 text-center">
+              <span data-purecounter-start="0" data-purecounter-end="1463" data-purecounter-duration="1"
+                class="purecounter"></span>
+              <p>Hours Of Support</p>
+            </div>
+
+            <div class="col-lg-3 col-6 text-center">
+              <span data-purecounter-start="0" data-purecounter-end="15" data-purecounter-duration="1"
+                class="purecounter"></span>
+              <p>Hard Workers</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- End Counts Section -->
+    <!-- ======= Our Values Section ======= -->
+    <section id="our-values" class="our-values">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 d-flex align-items-stretch">
+            <div class="card" style="background-image: url('./img/Values/mission.jpg')">
+              <div class="card-body">
+                <h5 class="card-title"><a href="">Our Mission</a></h5>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod
+                  tempor ut labore et dolore magna aliqua.
+                </p>
+                <div class="read-more">
+                  <a href="https://nss.gov.in/mission-objectives" target="_blank"><i class="bi bi-arrow-right"></i> Read
+                    More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
+            <div class="card" style="background-image: url('./img/Values/plan.jpg')">
+              <div class="card-body">
+                <h5 class="card-title"><a href="">Our Vision</a></h5>
+                <p class="card-text">
+                  Sed ut perspiciatis unde omnis iste natus error sit
+                  voluptatem doloremque laudantium, totam rem.
+                </p>
+                <div class="read-more">
+                  <a href="https://nss.gov.in/mission-objectives" target="_blank"><i class="bi bi-arrow-right"></i> Read
+                    More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Our Values Section -->
+
+    <!-- ======= activities Section ======= -->
+    <section id="activities" class="activities">
+      <div class="container">
+
+        <div class="section-title" data-aos="fade-up">
+          <h2>Activites Blog</h2>
+          <p>Click on image to open Blogs</p>
+        </div>
+        <div class="row activities-container" data-aos="fade-up" data-aos-delay="200">
+
+          <div class="col-lg-4 col-md-6 activities-item filter-app">
+            <div class="activities-wrap">
+              <img src="img/blog/blog_1.jpg" class="img-fluid activity-img" alt="">
+              <div class="activities-info">
+                <h4>Blood Donation Camp</h4>
+                <p>Camp</p>
+              </div>
+              <div class="activities-links">
+                <a href="img/activities/activities-1.jpg" data-gallery="activitiesGallery" class="activities-lightbox"
+                  title="Blood  Donation Camp"><i class="bx bx-plus"></i></a>
+                <a href="activities-details.html" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+              <div class="text-center">
+                <strong>Blood Donation Camp</strong>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 activities-item filter-web">
+            <div class="activities-wrap">
+              <img src="img/blog/blog_2.jpg" class="img-fluid activity-img" alt="">
+              <div class="activities-info">
+                <h4>Democracy Fortnight</h4>
+                <p>Web</p>
+              </div>
+              <div class=" activities-links ">
+                <a href="assets/img/activities/activities-2.jpg" data-gallery="activitiesGallery"
+                  class="activities-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
+                <a href="activities-details.html" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+              <div class="text-center">
+                <strong>Democracy Fortnight</strong>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 activities-item filter-app">
+            <div class="activities-wrap">
+              <img src="./img/blog/blog_3.png" class="img-fluid activity-img" alt="">
+              <div class="activities-info">
+                <h4>National Integrity Day</h4>
+                <p></p>
+              </div>
+              <div class="activities-links">
+                <a href="assets/img/activities/activities-3.jpg" data-gallery="activitiesGallery"
+                  class="activities-lightbox" title="App 2"><i class="bx bx-plus"></i></a>
+                <a href="activities-details.html" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+            <div class="text-center">
+              <strong>National Integrity Day</strong>
+            </div>
+          </div>
+        </div>
+        <div class="text-end">
+          <a href="./component/activity-blog.html" target~="blank">Read More...</a>
+        </div>
+    </section><!-- End activities Section -->
+
+
+    <!-- ======= Testimonials Section ======= -->
+    <section id="testimonials" class="testimonials">
+      <div class="container">
+        <!-- <div class="section-title" data-aos="zoom-out">
+            <h2>Testimonials</h2>
+            <p>What they are saying about us</p>
+          </div> -->
+
+        <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="./img/factulties/Director_Sir.png" class="testimonial-img" alt="" />
+                <h3>Dr. M.B.Kokare</h3>
+                <h4>Director</h4>
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  As the Director of SGGSIE&T institution, I invite you all to join the National Service Scheme (NSS), a
+                  prestigious organization that promotes civic engagement and empathy among the youth. NSS provides an
+                  opportunity for personal growth, social responsibility, and holistic development. By participating in
+                  various community service activities, students can become responsible citizens and compassionate
+                  leaders while developing essential life skills. NSS activities include environmental conservation,
+                  health awareness campaigns, education initiatives, and rural development projects. Joining NSS offers
+                  benefits such as networking opportunities, character development, and enhanced future prospects.
+                  Together, let us be the change we wish to see in the world.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+              </div>
+            </div>
+            <!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="./img/factulties/Profile.png" class="testimonial-img" alt="" />
+                <h3>Dr. A. R. Patil </h3>
+                <h4>Dean of Student Activities</h4>
+                <p>
+                  <i class="bx bxs-quote-alt-left  quote-icon-left"></i>
+                  I am thrilled to invite all of you to be a part of the National Service Scheme (NSS), an incredible
+                  opportunity for personal growth and community impact. NSS aims to shape compassionate leaders and
+                  contribute to the betterment of society by engaging students in meaningful social work. Through a wide
+                  range of activities such as environmental conservation, community development, and health awareness
+                  campaigns, you can directly contribute to the well-being of those in need.Let us join hands and create
+                  a profound impact on the lives of others, empowering communities and leaving a lasting legacy of
+                  compassion and service.
+
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+              </div>
+            </div>
+            <!-- End testimonial item -->
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="./img/factulties/Profile.png" class="testimonial-img" alt="" />
+                <h3>hemant Khandekar</h3>
+                <h4>Secretary</h4>
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  The National Service Scheme (NSS) is a transformative journey of self-discovery and service to
+                  society. It aims to instill in students the values of social responsibility, empathy, and leadership,
+                  equipping them with the tools to make a meaningful impact. It provides a platform for students to
+                  engage in community service and nurtures leadership qualities, teamwork, and effective communication
+                  skills. NSS encourages students to embrace the spirit of NSS and actively participate in its
+                  activities, creating a positive legacy and leaving behind a world that is more just, equitable, and
+                  inclusive.I encourage each and every one of you to wholeheartedly embrace the spirit of NSS
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+              </div>
+            </div>
+            <!-- End testimonial item -->
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="./img/factulties/Profile.png" class="testimonial-img" alt="" />
+                <h3>Jena Karlis</h3>
+                <h4>Store Owner</h4>
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  P4
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+              </div>
+            </div>
+            <!-- End testimonial item -->
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="./img/factulties/Profile.png" class="testimonial-img" alt="" />
+                <h3>Jena Karlis</h3>
+                <h4>Store Owner</h4>
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  P5
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+              </div>
+            </div>
+            <!-- End testimonial item -->
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </section>
+    <!-- End Testimonials Section -->
+
+    <!-- ======= Book A Table Section ======= -->
+    <section id="book-a-table" class="book-a-table">
+      <div class="container">
+        <div class="section-title">
+          <h2>Idea <span>Box</span></h2>
+          <p>
+            Ut possimus qui ut temporibus culpa velit eveniet modi omnis est
+            adipisci expedita at voluptas atque vitae autem.
+          </p>
+        </div>
+
+        <form action="" method="post" role="form" class="php-email-form">
+          <!-- <input type="hidden" name="_captcha" value="false">
+          <input type="hidden" name="_autoresponse" value="Thank You"> -->
+          <div class="row">
+            <div class="col-lg-4 col-md-6 form-group">
+              <input type="text" name="name" class="form-control" id="name" placeholder="Your Name (Required)"
+                required />
+            </div>
+            <div class="col-lg-4 col-md-6 form-group mt-3 mt-md-0">
+              <input type="email" class="form-control" name="email" id="email" placeholder="Your Email (Required)"
+                required />
+            </div>
+            <div class="col-lg-4 col-md-6 form-group mt-3 mt-md-0">
+              <input type="number" class="form-control" name="year" id="year" placeholder="Year of Graduation " />
+            </div>
+
+            <div class="form-group mt-3">
+              <textarea class="form-control" name="message" rows="5" id="message" placeholder="Message" required></textarea>
+            </div>
+          </div>
+          <div class="text-center">
+            <button type="submit">Drop an Idea</button>
+          </div>
+        </form>
+      </div>
+    </section>
+    <!-- End Book A Table Section -->
+    <!-- ======= Footer ======= -->
+    <footer id="footer">
+      <div class="container">
+        <h3>NSS</h3>
+        <p>
+          Et aut eum quis fuga eos sunt ipsa nihil. Labore corporis magni
+          eligendi fuga maxime saepe commodi placeat.
+        </p>
+        <div class="social-links">
+          <a href="#" class="twitter" target="_blank"><i class="bx bxl-twitter"></i></a>
+          <a href="#" class="facebook" target="_blank"><i class="bx bxl-facebook"></i></a>
+          <a href="https://instagram.com/nss_sggsnanded?igshid=OTJhZDVkZWE=" class="instagram" target="_blank"><i
+              class="bx bxl-instagram"></i></a>
+          <a href="mailto:nss@sggs.ac.in" class="google-plus"><i class='bx bxs-envelope'></i></a>
+          <a href="https://www.linkedin.com/in/national-service-scheme-sggsiet-48949a242" class="linkedin"
+            target="_blank"><i class="bx bxl-linkedin"></i></a>
+        </div>
+        <!-- <div class="copyright">
+          &copy; Copyright <strong><span>NSS</span></strong>
+        </div> -->
+        <div class="credits">
+          Designed by <a>NSS Wesite Team</a>
+        </div>
+      </div>
+    </footer>
+    <!-- End Footer -->
+
+    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+        class="bi bi-arrow-up-short"></i></a>
+
+    <!-- Scipt links -->
+    <script src="https://cdn.jsdelivr.net/npm/@srexi/purecounterjs@1.1.1/dist/purecounter_vanilla.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/glightbox/3.2.0/js/glightbox.min.js"
+      integrity="sha512-S/H9RQ6govCzeA7F9D0m8NGfsGf0/HjJEiLEfWGaMCjFzavo+DkRbYtZLSO+X6cZsIKQ6JvV/7Y9YMaYnSGnAA=="
+      crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/isotope-layout@3.0.6/dist/isotope.pkgd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/9.1.1/swiper-bundle.min.js"
+      integrity="sha512-J0i98QZsJc12MkNEyDbinrKKoe7Jiw0rtryAXBesZrVwRkaqgP9QNCPyo5sMZ2jfiJQb+9RIE4I3xNl8fFqQIA=="
+      crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./js/app.js"></script>
+    <script src="./js/email-form.js"></script>
+</body>
+
+</html>

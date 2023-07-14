@@ -1,0 +1,24 @@
+{
+  "name": "public",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@srexi/purecounterjs": "^1.5.0",
+    "animate.css": "^4.1.1",
+    "aos": "^2.3.4",
+    "bootstrap": "^5.2.3",
+    "bootstrap-icons": "^1.10.5",
+    "boxicons": "^2.1.4",
+    "glightbox": "^3.2.0",
+    "isotope-layout": "^3.0.6",
+    "remixicon": "^2.5.0",
+    "swiper": "^9.1.1"
+  }
+}
