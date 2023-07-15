@@ -23,7 +23,7 @@ contactform.addEventListener('submit', (e) => {
         xhr.onload = function () {
             console.log(xhr.responseText);
             if (xhr.responseText == 'success') {
-                alert('Email Sent');
+                alert('NSS received your Idea, Thank you!!!');
                 name1.value = '';
                 email.value = '';
                 year.value = '';
